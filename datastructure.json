@@ -1,0 +1,36 @@
+{  
+    "username": {
+        "type": "string"
+        "description": "Navnet til brukeren"
+        
+        }
+
+        "belongsTo": {
+            "type": "string"
+            "description": "Navnet til brukeren"
+        }
+
+        "todoList" {
+            "type": "Array"
+            "items": [
+            {
+                "beskrivelse": {"type": "string"}
+                "dato": {"type": "dato"}
+            }
+        ]
+    }
+
+        "Done" { 
+            
+        "type": "Array"
+        "items": 
+            
+                [
+            {
+            "beskrivelse": {"type": "string"}
+            "dato": {"type": "dato"}
+            }
+        ]
+    }
+
+}
