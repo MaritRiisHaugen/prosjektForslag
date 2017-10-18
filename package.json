@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "server.js",
+  "scripts": {
+    "test": "hei"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gruppe2applikasjonsutvikling/UIA17krollparantes/tree/marit_branch"
+  },
+  "keywords": [
+    "group",
+    "project"
+  ],
+  "author": "Marit Riis Haugen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
